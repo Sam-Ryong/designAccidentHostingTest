@@ -1,0 +1,21 @@
+{
+    "name": "samryong-github-page",
+    "version": "1.0.0",
+    "description": "samryong-github-page",
+    "main": "index.js",
+    "homepage" : "https://sam-ryong.github.io/designAccidentHostingTest/",
+    "script": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "gh-pages": "^5.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
